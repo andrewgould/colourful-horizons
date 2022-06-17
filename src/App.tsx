@@ -1,6 +1,6 @@
 import React from "react";
-import { ColourBlock, counter } from "./components/ColourBlock/ColourBlock";
 import "./App.css";
+import { BlockPrinter } from "./components/BlockPrinter/BlockPrinter";
 
 /**
  * I have no idea what I'm doing with React.
@@ -14,7 +14,7 @@ function App() {
       <header className="App-header">
         <h1>Colourful Horizons</h1>
       </header>
-      <main>{counter()}</main>
+      <main>{BlockPrinter()}</main>
     </div>
   );
 }

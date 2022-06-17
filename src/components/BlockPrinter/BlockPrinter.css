@@ -1,0 +1,16 @@
+.block-printer {
+  margin: 0 auto;
+  max-width: 256px;
+}
+
+@media (min-width: 512px) {
+  .block-printer {
+    max-width: 512px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .block-printer {
+    max-width: 1024px;
+  }
+}
