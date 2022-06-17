@@ -16,15 +16,15 @@ export function BlockPrinter() {
     blues.push(i);
   }
 
-  for (let R = 0; R < reds.length; R++) {
-    for (let G = 0; G < greens.length; G++) {
-      for (let B = 0; B < blues.length; B++) {
+  for (let r = 0; r < reds.length; r++) {
+    for (let g = 0; g < greens.length; g++) {
+      for (let b = 0; b < blues.length; b++) {
         rows.push(
           ColourBlock(
-            reds[R],
-            greens[G],
-            blues[B],
-            `${reds[R]}-${greens[G]}-${blues[B]}`
+            reds[r],
+            greens[g],
+            blues[b],
+            `${reds[r]}-${greens[g]}-${blues[b]}`
           )
         );
       }
